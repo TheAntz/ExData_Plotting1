@@ -6,7 +6,7 @@ plot2 <- function () {
     loadDataset()
   }
   ## Open the PNG graphics device
-  png(file="plot2.png", width=480, height=480)
+  png(file="plot2.png", width=480, height=480, units="px")
   ## Draw line plot
   plot(dataset$datetime, dataset$Global_active_power, 
        ylab="Global Active Power (kilowatts)", type="l", xlab="")

@@ -6,7 +6,7 @@ plot1 <- function () {
     loadDataset()
   }
   ## Open the PNG graphics device
-  png(file="plot1.png", width=480, height=480)
+  png(file="plot1.png", width=480, height=480, units="px")
   ## Plot the histogram
   hist(dataset$Global_active_power, main="Global Active Power", 
        xlab="Global Active Power (kilowatts)", col="red")

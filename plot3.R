@@ -6,7 +6,7 @@ plot3 <- function () {
     loadDataset()
   }
   ## Open the PNG graphics device
-  png(file="plot3.png", width=480, height=480)
+  png(file="plot3.png", width=480, height=480, units="px")
   ## Setup the plot
   plot(dataset$datetime, dataset$Sub_metering_1, ylab="Energy sub metering", 
        type="n", xlab="")

@@ -6,7 +6,7 @@ plot4 <- function () {
     loadDataset()
   }
   ## Open the PNG graphics device
-  png(file="plot4.png", width=480, height=480)
+  png(file="plot4.png", width=480, height=480, units="px")
   ## Setup 
   par(mfrow=c(2,2))
   
